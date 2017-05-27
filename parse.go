@@ -213,6 +213,7 @@ func (m *ParseMode) run(c *kingpin.ParseContext) error {
 	switch m.OutputFormat {
 	case "json":
 		enc := json.NewEncoder(w)
+		enc.SetEscapeHTML(false)
 
 		if m.PrettyPrint && m.OutFilename == "-" {
 			enc.SetIndent("", "    ")
