@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/alecthomas/kingpin"
 	"github.com/pkg/errors"
-	kingpin "gopkg.in/alecthomas/kingpin.v2"
 )
 
 type GlobalConfig struct {

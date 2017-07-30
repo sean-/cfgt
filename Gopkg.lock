@@ -1,4 +1,10 @@
-memo = "02989cabae7144ff34def27a0daed6b6cffbece5e73fbba7e2ff0ea18b3e5be7"
+memo = "e5abec5c5269650d0f170b482ca47b782a7dcf8b615e23a028c97dae8d90bb2e"
+
+[[projects]]
+  name = "github.com/alecthomas/kingpin"
+  packages = ["."]
+  revision = "1087e65c9441605df944fb12c33f0fe7072d18ca"
+  version = "v2.2.5"
 
 [[projects]]
   branch = "master"
@@ -22,28 +28,22 @@ memo = "02989cabae7144ff34def27a0daed6b6cffbece5e73fbba7e2ff0ea18b3e5be7"
   branch = "master"
   name = "github.com/hashicorp/hcl"
   packages = [".","hcl/ast","hcl/parser","hcl/scanner","hcl/strconv","hcl/token","json/parser","json/scanner","json/token"]
-  revision = "7fa7fff964d035e8a162cce3a164b3ad02ad651b"
+  revision = "392dba7d905ed5d04a5794ba89f558b27e2ba1ca"
 
 [[projects]]
-  branch = "master"
   name = "github.com/mattn/go-isatty"
   packages = ["."]
   revision = "fc9e8d8ef48496124e79ae0df75490096eccf6fe"
+  version = "v0.0.2"
 
 [[projects]]
   branch = "master"
   name = "github.com/pkg/errors"
   packages = ["."]
-  revision = "ff09b135c25aae272398c51a07235b90a75aa4f0"
+  revision = "c605e284fe17294bda444b34710735b29d1a9d90"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "9ccfe848b9db8435a24c424abbc07a921adf1df5"
-
-[[projects]]
-  branch = "master"
-  name = "gopkg.in/alecthomas/kingpin.v2"
-  packages = ["."]
-  revision = "7f0871f2e17818990e4eed73f9b5c2f429501228"
+  revision = "0f826bdd13b500be0f1d4004938ad978fcc6031e"

@@ -10,11 +10,11 @@ import (
 	"os"
 	"strings"
 
+	"github.com/alecthomas/kingpin"
 	"github.com/flynn/json5"
 	"github.com/hashicorp/hcl"
 	isatty "github.com/mattn/go-isatty"
 	"github.com/pkg/errors"
-	kingpin "gopkg.in/alecthomas/kingpin.v2"
 )
 
 const (

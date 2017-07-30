@@ -72,5 +72,4 @@
   name = "golang.org/x/sys"
 
 [[dependencies]]
-  branch = "master"
-  name = "gopkg.in/alecthomas/kingpin.v2"
+  name = "github.com/alecthomas/kingpin"
