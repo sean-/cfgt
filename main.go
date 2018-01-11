@@ -48,10 +48,12 @@ func configureApp(app *kingpin.Application) error {
 	return nil
 }
 
+var version = "master"
+
 func main() {
 	app := kingpin.New("cfgt", "A configuration file translation utility")
 	app.Author("Joyent, Inc.")
-	app.Version("0.1")
+	app.Version(version)
 	if err := configureApp(app); err != nil {
 		type stackTracer interface {
 			StackTrace() errors.StackTrace
